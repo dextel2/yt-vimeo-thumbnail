@@ -1,15 +1,22 @@
 {
-  "name": "yt-vimeo-thumbnail",
-  "version": "1.0.0",
-  "description": "A simple package to get thumbnail of a YouTube video or Vimeo video",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "youtube",
-    "vimeo"
-  ],
-  "author": "Yash Karanke",
-  "license": "MIT"
+	"name": "yt-vimeo-thumbnail",
+	"version": "1.0.0",
+	"description": "A simple package to get thumbnail of a YouTube video or Vimeo video",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint . --ext .ts"
+	},
+	"keywords": [
+		"youtube",
+		"vimeo"
+	],
+	"author": "Yash Karanke",
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.23.0",
+		"@typescript-eslint/parser": "^4.23.0",
+		"eslint": "^7.26.0"
+	}
 }
