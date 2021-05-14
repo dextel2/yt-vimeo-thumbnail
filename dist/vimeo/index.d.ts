@@ -1,0 +1,1 @@
+export { getVimeoThumbnail } from "./getVimeo";
