@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"description": "A simple package to get thumbnail of a YouTube video or Vimeo video",
 	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "eslint . --ext .ts"
@@ -18,5 +17,8 @@
 		"@typescript-eslint/eslint-plugin": "^4.23.0",
 		"@typescript-eslint/parser": "^4.23.0",
 		"eslint": "^7.26.0"
+	},
+	"dependencies": {
+		"xmlhttprequest": "^1.8.0"
 	}
 }

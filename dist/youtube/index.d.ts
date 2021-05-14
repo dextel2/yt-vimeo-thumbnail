@@ -1,0 +1,1 @@
+export { getYouTubeThumbnail } from "./getYouTube";
