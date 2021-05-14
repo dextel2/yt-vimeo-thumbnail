@@ -2,6 +2,7 @@
 	"name": "yt-vimeo-thumbnail",
 	"version": "1.0.0",
 	"description": "A simple package to get thumbnail of a YouTube video or Vimeo video",
+	"url": "https://github.com/dextel2/yt-vimeo-thumbnail.git",
 	"main": "dist/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
