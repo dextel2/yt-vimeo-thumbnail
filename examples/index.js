@@ -1,4 +1,4 @@
-const { getYouTubeThumbnail } = require("../dist/youtube");
+const { getYouTubeThumbnail } = require("yt-vimeo-thumbnail");
 const { getVimeoThumbnail } = require("../dist/vimeo");
 
 console.log(getYouTubeThumbnail("https://vimeo.com/29951514"));
