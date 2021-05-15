@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"description": "A simple package to get thumbnail of a YouTube video or Vimeo video",
 	"url": "https://github.com/dextel2/yt-vimeo-thumbnail.git",
+	"homepage": "https://github.com/dextel2/yt-vimeo-thumbnail/blob/master/README.md",
 	"main": "dist/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +21,7 @@
 		"eslint": "^7.26.0"
 	},
 	"dependencies": {
+		"assert": "^2.0.0",
 		"xmlhttprequest": "^1.8.0"
 	}
 }
