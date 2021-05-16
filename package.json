@@ -11,7 +11,12 @@
 	},
 	"keywords": [
 		"youtube",
-		"vimeo"
+		"vimeo",
+		"save",
+		"thumbnail",
+		"library",
+		"reactjs",
+		"nodejs"
 	],
 	"author": "Yash Karanke",
 	"license": "MIT",
