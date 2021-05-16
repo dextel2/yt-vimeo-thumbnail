@@ -1,10 +1,14 @@
 {
 	"name": "yt-vimeo-thumbnail",
-	"version": "1.3.0",
+	"version": "1.4.0",
 	"description": "A simple package to get thumbnail of a YouTube video or Vimeo video",
 	"url": "https://github.com/dextel2/yt-vimeo-thumbnail.git",
 	"homepage": "https://github.com/dextel2/yt-vimeo-thumbnail/blob/master/README.md",
 	"main": "dist/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dextel2/yt-vimeo-thumbnail.git"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "eslint . --ext .ts"
