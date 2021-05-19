@@ -10,4 +10,5 @@
  * @param {String} url
  * @example getYouTubeThumbnail("https://www.youtube.com/watch?v=<video_id>&ab_channel=<channel_name>")
  */
-export declare const getYouTubeThumbnail: (url: string) => any;
+declare const getYouTubeThumbnail: (url: string) => any;
+export { getYouTubeThumbnail };

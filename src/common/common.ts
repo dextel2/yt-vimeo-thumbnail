@@ -5,7 +5,7 @@ import { getVimeoThumbnail, getYouTubeThumbnail } from "../../src"
  * @summary A common method to figure out the URL and based on the get the result.
  * 
  */
-export const common = (url: string): any => {
+const common = (url: string): any => {
 	if (url.indexOf("youtube.com") > -1) {
 		getYouTubeThumbnail(url)
 	}
@@ -13,3 +13,4 @@ export const common = (url: string): any => {
 		getVimeoThumbnail(url)
 	}
 }
+export { common }

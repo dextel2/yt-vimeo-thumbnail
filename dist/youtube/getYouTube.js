@@ -13,8 +13,8 @@ exports.getYouTubeThumbnail = void 0;
  * @param {String} url
  * @example getYouTubeThumbnail("https://www.youtube.com/watch?v=<video_id>&ab_channel=<channel_name>")
  */
-const getYouTubeThumbnail = (url) => {
-    let video, results;
+var getYouTubeThumbnail = function (url) {
+    var video, results;
     if (url === undefined || url === null) {
         return false;
     }

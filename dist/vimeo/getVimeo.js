@@ -9,10 +9,10 @@ exports.getVimeoThumbnail = void 0;
  * @param {String} url
  * @example getVimeoThumbnail("https://vimeo.com/29951514")
  */
-const xmlhttprequest_1 = require("xmlhttprequest");
-const getVimeoThumbnail = (url) => {
-    let result;
-    let request = new xmlhttprequest_1.XMLHttpRequest();
+var xmlhttprequest_1 = require("xmlhttprequest");
+var getVimeoThumbnail = function (url) {
+    var result;
+    var request = new xmlhttprequest_1.XMLHttpRequest();
     request.open("GET", "https://vimeo.com/api/oembed.json?url=" + url, false);
     request.onload = function () {
         if (request.status >= 200 && request.status < 400) {
