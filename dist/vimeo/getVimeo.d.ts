@@ -1,1 +1,2 @@
-export declare const getVimeoThumbnail: (url: string) => any;
+declare const getVimeoThumbnail: (url: string) => any;
+export { getVimeoThumbnail };

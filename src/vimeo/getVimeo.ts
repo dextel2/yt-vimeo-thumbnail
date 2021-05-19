@@ -7,7 +7,7 @@
  * @example getVimeoThumbnail("https://vimeo.com/29951514")
  */
 import { XMLHttpRequest } from "xmlhttprequest"
-export const getVimeoThumbnail = (url: string): any => {
+const getVimeoThumbnail = (url: string): any => {
 	let result: string;
 	let request = new XMLHttpRequest();
 	request.open("GET", "https://vimeo.com/api/oembed.json?url=" + url, false);
@@ -22,3 +22,5 @@ export const getVimeoThumbnail = (url: string): any => {
 	request.send();
 	return result;
 }
+
+export { getVimeoThumbnail }

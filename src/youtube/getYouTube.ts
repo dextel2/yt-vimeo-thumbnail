@@ -10,7 +10,7 @@
  * @param {String} url
  * @example getYouTubeThumbnail("https://www.youtube.com/watch?v=<video_id>&ab_channel=<channel_name>")
  */
-export const getYouTubeThumbnail = (url: string): any => {
+const getYouTubeThumbnail = (url: string): any => {
 	let video: any, results: any;
 	if (url === undefined || url === null) {
 		return false;
@@ -21,3 +21,5 @@ export const getYouTubeThumbnail = (url: string): any => {
 		return "http://img.youtube.com/vi/" + video + "/0.jpg";
 	}
 }
+
+export { getYouTubeThumbnail }
